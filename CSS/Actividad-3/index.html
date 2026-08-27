@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tienda de juguetes Pop It creada como práctica de Flexbox y CSS Grid." />
+  <title>Mundo Pop It</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Portada y navegación principal -->
+  <header class="hero" id="inicio">
+    <img class="hero__background" src="images/background.png" alt="" aria-hidden="true" />
+
+    <div class="container hero__container">
+      <nav class="navbar" aria-label="Navegación principal">
+        <a class="navbar__brand" href="#inicio">MUNDO POP IT</a>
+
+        <ul class="navbar__links">
+          <li><a href="#nosotros">NOSOTROS</a></li>
+          <li><a href="#productos">PRODUCTOS</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero__content">
+        <h1>¡POP IT!</h1>
+        <p>El juguete antiestrés para relajarte y divertirte sin parar.</p>
+        <a class="button button--blue" href="#productos">VER PRODUCTOS</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Breve explicación del producto -->
+    <section class="about section" id="nosotros">
+      <div class="container about__content">
+        <h2>¿Qué es un Pop It?</h2>
+        <p>
+          Un Pop It es un juguete sensorial de silicona formado por pequeñas
+          burbujas que se presionan de un lado a otro. Su funcionamiento
+          recuerda al plástico de burbujas, pero puede utilizarse muchas
+          veces. Además de ser entretenido, ayuda a mantener las manos
+          ocupadas y ofrece una sensación agradable al presionar cada burbuja.
+        </p>
+      </div>
+    </section>
+
+    <!-- Catálogo organizado con CSS Grid -->
+    <section class="products section" id="productos">
+      <div class="container">
+        <h2>¡Elige tu Pop It!</h2>
+
+        <div class="products__grid">
+          <article class="product-card">
+            <img src="images/square.png" alt="Pop It cuadrado multicolor" loading="lazy" />
+            <h3>Pop It cuadrado multicolor</h3>
+            <a class="button button--orange" href="#contacto">COMPRAR</a>
+          </article>
+
+          <article class="product-card">
+            <img src="images/amongus.png" alt="Pop It con forma de Among Us" loading="lazy" />
+            <h3>Pop It Among Us marmoleado</h3>
+            <a class="button button--orange" href="#contacto">COMPRAR</a>
+          </article>
+
+          <article class="product-card">
+            <img src="images/round.png" alt="Pop It redondo multicolor" loading="lazy" />
+            <h3>Pop It redondo multicolor</h3>
+            <a class="button button--orange" href="#contacto">COMPRAR</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reglas: texto e imagen distribuidos con Grid -->
+    <section class="rules section">
+      <div class="container rules__grid">
+        <div class="rules__content">
+          <h2>¿Cómo se juega?</h2>
+          <p>
+            Los jugadores se turnan para presionar las burbujas. En cada turno
+            se pueden presionar hasta tres burbujas seguidas de una misma
+            fila. La persona que comienza una fila debe terminar su movimiento
+            dentro de ella. El objetivo es evitar presionar la última burbuja
+            disponible, porque quien lo haga pierde la ronda.
+          </p>
+        </div>
+
+        <img class="rules__image" src="images/photo.jpg" alt="Niño jugando con un Pop It multicolor" loading="lazy" />
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer" id="contacto">
+    <div class="container footer__content">
+      <a class="footer__brand" href="#inicio">MUNDO POP IT</a>
+
+      <nav aria-label="Navegación del pie de página">
+        <ul class="footer__links">
+          <li><a href="#contacto">Medios de pago</a></li>
+          <li><a href="#contacto">Envíos</a></li>
+          <li><a href="#contacto">Ventas al por mayor</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Artículo sobre las tecnologías que permiten que Internet soporte millones de visitas."
+    >
+
+    <title>De cero a viral: ¿cómo soporta Internet millones de visitas?</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>De cero a viral: ¿cómo soporta Internet millones de visitas?</h1>
+
+        <p>
+            El viaje de una página web desde sus primeros visitantes
+            hasta convertirse en un fenómeno digital.
+        </p>
+
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#servidores">Servidores</a></li>
+                <li><a href="#escalabilidad">Escalabilidad</a></li>
+                <li><a href="#herramientas">Herramientas</a></li>
+                <li><a href="#conclusion">Conclusión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <article>
+
+            <section id="introduccion">
+                <h2>Cuando una página deja de ser pequeña</h2>
+
+                <p>
+                    La mayoría de los sitios web comienzan con pocos visitantes:
+                    familiares, amigos o un pequeño grupo de usuarios. Sin embargo,
+                    una publicación en redes sociales, una noticia o un video viral
+                    puede hacer que miles o incluso millones de personas intenten
+                    acceder al mismo tiempo.
+                </p>
+
+                <p>
+                    En ese momento, una página que funcionaba correctamente puede
+                    volverse lenta, mostrar errores o dejar de responder. Para evitar
+                    esto, las grandes plataformas utilizan diferentes tecnologías
+                    que permiten distribuir el tráfico y mantener disponible el
+                    servicio.
+                </p>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80"
+                        alt="Servidores de un centro de datos conectados mediante cables"
+                        width="1200"
+                    >
+
+                    <figcaption>
+                        Los centros de datos contienen la infraestructura que mantiene
+                        disponibles millones de servicios digitales.
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section id="servidores">
+                <h2>El servidor: el lugar donde vive la página</h2>
+
+                <p>
+                    Un servidor es un equipo encargado de almacenar información y
+                    responder las solicitudes realizadas por los usuarios. Cuando
+                    una persona escribe una dirección web o presiona un botón,
+                    el navegador envía una solicitud al servidor correspondiente.
+                </p>
+
+                <p>
+                    El servidor procesa esa solicitud y devuelve una respuesta,
+                    que puede contener una página HTML, imágenes, archivos,
+                    información de una base de datos o una combinación de estos
+                    elementos.
+                </p>
+
+                <h3>¿Qué ocurre cuando un usuario visita una página?</h3>
+
+                <ol>
+                    <li>El usuario escribe una dirección web en el navegador.</li>
+                    <li>El navegador localiza el servidor correspondiente.</li>
+                    <li>El servidor recibe y procesa la solicitud.</li>
+                    <li>La aplicación consulta la información necesaria.</li>
+                    <li>El servidor envía una respuesta al navegador.</li>
+                    <li>El navegador muestra el contenido en pantalla.</li>
+                </ol>
+            </section>
+
+            <section id="escalabilidad">
+                <h2>¿Cómo se prepara una página para recibir millones de visitas?</h2>
+
+                <p>
+                    Una aplicación preparada para crecer necesita distribuir el
+                    trabajo entre diferentes recursos. De esta manera, no depende
+                    de un único servidor ni de una sola máquina para atender todas
+                    las solicitudes.
+                </p>
+
+                <h3>Balanceo de carga</h3>
+
+                <p>
+                    El balanceador de carga distribuye las solicitudes entre varios
+                    servidores. Si uno de ellos está ocupado, las nuevas peticiones
+                    pueden enviarse a otro servidor disponible.
+                </p>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
+                        alt="Representación visual de conexiones y redes digitales"
+                        width="1200"
+                    >
+
+                    <figcaption>
+                        Las redes permiten conectar usuarios con diferentes servidores
+                        ubicados en distintas partes del mundo.
+                    </figcaption>
+                </figure>
+
+                <h3>Almacenamiento en caché</h3>
+
+                <p>
+                    La caché guarda temporalmente información que se consulta con
+                    frecuencia. Por ejemplo, una imagen o una página que no cambia
+                    constantemente puede almacenarse cerca del usuario para evitar
+                    que el servidor tenga que generarla cada vez.
+                </p>
+
+                <h3>Red de distribución de contenido</h3>
+
+                <p>
+                    Una CDN, o red de distribución de contenido, almacena copias de
+                    los archivos de una página en diferentes ubicaciones geográficas.
+                    Así, una persona en Colombia puede recibir una imagen desde un
+                    servidor cercano, en lugar de esperar una respuesta desde otro
+                    continente.
+                </p>
+            </section>
+
+            <section id="herramientas">
+                <h2>Herramientas que ayudan a mantener una aplicación disponible</h2>
+
+                <p>
+                    Las plataformas de gran escala combinan diferentes tecnologías
+                    para mejorar el rendimiento, la disponibilidad y la capacidad
+                    de respuesta de sus aplicaciones.
+                </p>
+
+                <ul>
+                    <li>
+                        <strong>Servidores distribuidos:</strong>
+                        permiten repartir el procesamiento entre varias máquinas.
+                    </li>
+
+                    <li>
+                        <strong>Bases de datos optimizadas:</strong>
+                        organizan y entregan información de manera eficiente.
+                    </li>
+
+                    <li>
+                        <strong>Sistemas de caché:</strong>
+                        reducen el número de consultas repetitivas.
+                    </li>
+
+                    <li>
+                        <strong>CDN:</strong>
+                        entregan imágenes, videos y archivos desde ubicaciones cercanas.
+                    </li>
+
+                    <li>
+                        <strong>Monitoreo:</strong>
+                        permite detectar errores, lentitud y fallos en los servicios.
+                    </li>
+
+                    <li>
+                        <strong>Escalamiento automático:</strong>
+                        agrega o retira recursos según la cantidad de usuarios.
+                    </li>
+                </ul>
+
+                <h3>La importancia de medir el rendimiento</h3>
+
+                <p>
+                    No basta con tener muchos servidores. También es necesario
+                    observar cómo se comporta la aplicación. Para esto se revisan
+                    métricas como el tiempo de respuesta, el número de solicitudes,
+                    el consumo de memoria y la cantidad de errores.
+                </p>
+
+                <table>
+                    <caption>
+                        Ejemplos de métricas importantes en una aplicación web
+                    </caption>
+
+                    <thead>
+                        <tr>
+                            <th>Métrica</th>
+                            <th>¿Qué permite conocer?</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Tiempo de respuesta</td>
+                            <td>Cuánto tarda el sistema en responder.</td>
+                        </tr>
+
+                        <tr>
+                            <td>Número de usuarios</td>
+                            <td>Cuántas personas están utilizando la aplicación.</td>
+                        </tr>
+
+                        <tr>
+                            <td>Tasa de errores</td>
+                            <td>Cuántas solicitudes no se procesan correctamente.</td>
+                        </tr>
+
+                        <tr>
+                            <td>Disponibilidad</td>
+                            <td>Durante cuánto tiempo permanece activo el servicio.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <aside>
+                <h2>Dato curioso</h2>
+
+                <p>
+                    Cuando un contenido se vuelve viral, el problema no siempre
+                    está relacionado con el tamaño de la página. En muchas ocasiones,
+                    la dificultad aparece porque miles de usuarios realizan la misma
+                    acción al mismo tiempo: reproducir un video, consultar una base
+                    de datos o descargar un archivo.
+                </p>
+
+                <h3>Consejo para desarrolladores</h3>
+
+                <p>
+                    Diseñar una aplicación pensando únicamente en el número actual
+                    de usuarios puede generar problemas en el futuro. Una buena
+                    práctica consiste en crear sistemas que puedan crecer de manera
+                    progresiva.
+                </p>
+            </aside>
+
+            <section id="conclusion">
+                <h2>Conclusión</h2>
+
+                <p>
+                    Una página web no se vuelve viral únicamente por tener un buen
+                    diseño o contenido interesante. También necesita una infraestructura
+                    capaz de responder a una gran cantidad de usuarios al mismo tiempo.
+                </p>
+
+                <p>
+                    Los servidores distribuidos, el balanceo de carga, la caché,
+                    las CDN, las bases de datos optimizadas y el monitoreo son algunos
+                    de los elementos que permiten que una aplicación siga funcionando
+                    incluso cuando recibe millones de visitas.
+                </p>
+
+                <p>
+                    En conclusión, detrás de cada plataforma rápida y disponible
+                    existe una arquitectura diseñada para resistir el crecimiento.
+                    Lo que el usuario percibe como un simple clic puede activar una
+                    compleja cadena de procesos tecnológicos.
+                </p>
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>
+            Artículo elaborado por:
+            <strong>Juan Andrés Suárez Gaviria</strong>
+        </p>
+
+        <p>
+            Bootcamp en Desarrollo Web Fullstack
+        </p>
+
+        <p>
+            <time datetime="2026-07-23">23 de julio de 2026</time>
+        </p>
+    </footer>
+
+</body>
+</html>
